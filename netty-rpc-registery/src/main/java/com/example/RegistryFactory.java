@@ -9,7 +9,6 @@ import com.example.zookeeper.ZookeeperRegistryService;
  **/
 public class RegistryFactory {
 
-
     public static IRegistryService createRegistryService(String address,RegistryType registryType){
         IRegistryService registryService=null;
         try {

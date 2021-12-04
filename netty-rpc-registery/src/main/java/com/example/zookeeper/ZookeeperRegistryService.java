@@ -4,7 +4,6 @@ import com.example.IRegistryService;
 import com.example.ServiceInfo;
 import com.example.loadbalance.ILoadBalance;
 import com.example.loadbalance.RandomLoadBalance;
-import com.sun.org.apache.regexp.internal.RE;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
